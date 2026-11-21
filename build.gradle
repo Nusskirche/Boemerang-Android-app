@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' version '8.7.3' }
+android {
+    namespace 'nl.boemerang.editor'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'nl.boemerang.editor'
+        minSdk 29
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
